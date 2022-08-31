@@ -1,0 +1,40 @@
+@import "./theme.scss";
+@import "./font.scss";
+@import "./colors.scss";
+
+:root {
+  --color-text: #{$body-color};
+  --color-background: #{$body-bg};
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+html {
+  background-color: #1f2424;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.25s;
+  font-family: "Montserrat",
+    "Arial",
+    sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow: hidden;
+}

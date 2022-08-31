@@ -1,0 +1,9 @@
+
+@charset "utf-8";
+@import "./colors.scss";
+@import "./font.scss";
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$family-sans-serif: "Montserrat", "Arial", sans-serif;
+
+@import "../node_modules/bulma/bulma";
